@@ -1,0 +1,19 @@
+.content {
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--foundation-white-light-hover, #f0f0f0)
+  );
+  padding: 20px;
+  padding-bottom: 8rem;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  overflow-x: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}

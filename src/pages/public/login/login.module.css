@@ -1,0 +1,43 @@
+.subtext {
+  color: var(--nav-gray, #7d7f88);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.28px;
+}
+
+.divider {
+  width: 343px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #ebe8f6;
+  margin: 40px 0px 40px 0px;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.appleLogin {
+  display: flex;
+  padding: 13px 102px 13px 16px;
+  align-items: flex-start;
+  gap: 63px;
+
+  border-radius: 103px;
+  background: var(--Foundation-Blue-Normal, #222831);
+}
+.googleLogin {
+  display: flex;
+  height: 50px;
+  padding: 13px 97px 13px 16px;
+  align-items: flex-start;
+  gap: 58px;
+  border-radius: 103px;
+  border: 1px solid var(--Neutral-Gray-200, #e2e8f0);
+  background: var(--Neutral-Gray-0, #fff);
+  margin-top: 20px;
+}
