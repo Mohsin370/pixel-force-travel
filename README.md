@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+<h1>Placoo</h1>
+<p>
+This is a React project that is created with Vite and uses typeScript as the main language. 
+TailwindCss is used as a major CSS library in the project.
+The purpose of this project is to complete the challenge given by PixelForce.  
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1>Project setup</h1>
+<p>Setting up this project is very simple</p>
+<ol>
+  <li>Clone repository</li>
+  <li>Switch to repository by typing cd pixel-force-travel</li>
+  <li>Run command 'npm install' to install all the required packages</li>
+  <li>Run command 'num run dev'</li>
+  <li>The project should be running on port 5173 (http://localhost:5173/)</li>
+</ol>
 
-Currently, two official plugins are available:
+<p>For your ease, I have deployed the project on netflity and it is accessible on this <a hred="https://main--mellow-mousse-fc236a.netlify.app/explore">Demo link</a> </p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>Notes for Reviewer</h1>
+<p> I have tried to use the best naming convention and code properly formatted with prettier for your convenience.</p>
+<p> The project is highly broken down into components for reusability purposes.</p>
 
-## Expanding the ESLint configuration
+<h1>Assumptions and potential improvements</h1>
+<p>The homepage images were not available in Figma so I have skipped the homepage images</p>
+<p>The provided JSON apis had CORS Authorization issues so I have added the same JSON in a static array to replicate the same data. Moreover,  I have created a base API calls structure that can be used to simply call the APIs with Axios instead of static arrays.</p>
+<p> Lazy load could have been applied to avoid delay in image loading </p>
+<p>Card component could have been improved.</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p>Thank you for considering me for this opportunity. I am very positive that you will see through the effort that I have put into this project and I am looking forward to hearing from you. Thank you!</p>
