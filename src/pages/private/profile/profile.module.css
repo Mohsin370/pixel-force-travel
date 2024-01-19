@@ -1,0 +1,9 @@
+.profileCard {
+  border-radius: 10px;
+  border: 0.5px solid #e3e3e7;
+  background: var(--Foundation-White-Light, #fdfdfd);
+  box-shadow: 0px 4px 16px 0px rgba(69, 69, 69, 0.15);
+  width: 40px;
+  height: 40px;
+  padding: 9px;
+}
