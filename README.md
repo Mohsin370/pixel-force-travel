@@ -22,6 +22,10 @@ The purpose of this project is to complete the challenge given by PixelForce.
 <p> The project is highly broken down into components for reusability purposes.</p>
 <p> The project has responsive design as asked in the requirements.</p>
 
+<h1>Project Specs and docs</h1>
+<p>Figma designs can be found here: https://www.figma.com/file/vtIAbUhIVhDqDjtpOCl74V/Front-End-Example?node-id=403%3A1811&mode=dev </p>
+<p>Project description document reference: https://docs.google.com/document/d/10veP-H38kZDP3sBuDasvS1mPHb8dnUfaKDV6pqFxaIo/edit </p>
+
 <h1>Usage</h1>
 <p>Home page - Use the Login button to move to the next screen</p>
 <p>Login Page - Clicking on the login page will take you to the travel places page</p>
