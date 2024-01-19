@@ -54,7 +54,7 @@ function Tab(props: TabPropsType) {
                   <Link
                     to={`/${navItem.url}`} 
                     className={`inline-flex flex-col items-center p-3 border-b-2 border-transparent  ${
-                      props.active === index ? "  primary" : "black"
+                      props.active === index ? "  primary" : ""
                     }`}
                   >
                     <img src={navItem.icon} alt={navItem.name} />

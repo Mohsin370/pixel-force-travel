@@ -12,7 +12,7 @@ function Card(props: cardType) {
           <img className="max-h-52 xl:w-52 sm:w-52  rounded-t-lg" src={props.image} loading="lazy" alt="" />
         </div>
         <div className="p-3">
-          <h3 className=" text-md">{props.name}</h3>
+          <h3 className=" text-md font-semibold">{props.name}</h3>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             {props.rented_props_count}
           </p>
