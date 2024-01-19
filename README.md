@@ -15,11 +15,17 @@ The purpose of this project is to complete the challenge given by PixelForce.
   <li>The project should be running on port 5173 (http://localhost:5173/)</li>
 </ol>
 
-<p>For your ease, I have deployed the project on netflity and it is accessible on this <a hred="https://main--mellow-mousse-fc236a.netlify.app/explore">Demo link</a> </p>
+<p>For your ease, I have deployed the project on netflity and it is accessible on this <a href="https://main--mellow-mousse-fc236a.netlify.app/">Demo link</a> </p>
 
 <h1>Notes for Reviewer</h1>
 <p> I have tried to use the best naming convention and code properly formatted with prettier for your convenience.</p>
 <p> The project is highly broken down into components for reusability purposes.</p>
+<p> The project has responsive design as asked in the requirements.</p>
+
+<h1>Usage</h1>
+<p>Home page - Use the Login button to move to the next screen</p>
+<p>Login Page - Clicking on the login page will take you to the travel places page</p>
+<p>Travel Page - Explore, Chat and profile are clickable to switch between tabs</p>
 
 <h1>Assumptions and potential improvements</h1>
 <p>The homepage images were not available in Figma so I have skipped the homepage images</p>
