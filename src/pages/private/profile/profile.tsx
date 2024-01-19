@@ -10,7 +10,7 @@ import styles from "./profile.module.css";
 function Profile() {
   return (
     <>
-      <div className="w-100  min-h-svh bg-slate-50">
+      <div className="w-100  min-h-svh">
         <div className="text-center pt-16">
           <div className="w-100">
             <img
